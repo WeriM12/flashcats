@@ -1,11 +1,11 @@
 
-import Sidebar from './Sidebar';
-import Main from './Main';
-import Nav from './Nav';
+import Sidebar from './Sidebar.jsx';
+import Main from './Main.jsx';
+import Nav from './Nav.jsx';
 
 import React from 'react';
 
-import '../App.js';
+import '../App.jsx';
 import '../styles/global.scss';
 
 
