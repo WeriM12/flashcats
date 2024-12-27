@@ -1,8 +1,8 @@
-import React from 'react';
+
 
 import '../styles/components/Sidebar.scss'; // Optional: Create a corresponding CSS file for styles
 import '../styles/global.scss';
-import { Route, Routes, useNavigate } from 'react-router-dom';
+import { Route, Routes, useNavigate } from 'react-router';
 
 function Update({ buttonClass, title, paragraph, route }) {
   const navigate = useNavigate();

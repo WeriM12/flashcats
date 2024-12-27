@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 import '../styles/components/Footer.scss'; // Optional: Create a corresponding CSS file for styles
 import '../styles/global.scss';

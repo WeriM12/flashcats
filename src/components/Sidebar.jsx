@@ -1,11 +1,11 @@
-import React from 'react';
 
-import Header from './Header.jsx';
-import Nav from './Nav.jsx';
+
+import Header from './Header';
+import Nav from './Nav';
 
 import '../styles/components/Sidebar.scss'; // Optional: Create a corresponding CSS file for styles
 import '../styles/global.scss';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router';
 
 function Sidebar() {
   return (

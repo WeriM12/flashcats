@@ -1,9 +1,9 @@
-import React from 'react';
+
 
 import '../styles/components/Main.scss'; // Optional: Create a corresponding CSS file for styles
 import '../styles/global.scss';
 
-import { BrowserRouter, Route, Routes, useNavigate } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, useNavigate } from 'react-router';
 import data from "../Data.json";
 
 function LearningMode({ category, route }) {

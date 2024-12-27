@@ -1,15 +1,14 @@
-import React from 'react';
 
-import Update from './Update.js'
-import Learn from '../pages/Learn.jsx';
-import Progress from '../pages/Progress.jsx';
-import About from '../pages/About.jsx';
-import Add from '../pages/Add.js';
-import CategoriesList from './CategoriesList.jsx';
+import Update from './Update'
+import Learn from '../pages/Learn';
+import Progress from '../pages/Progress';
+import About from '../pages/About';
+import Add from '../pages/Add';
+import CategoriesList from './CategoriesList';
 
 import '../styles/components/Main.scss'; // Optional: Create a corresponding CSS file for styles
 import '../styles/global.scss';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router';
 
 
 function Main() {

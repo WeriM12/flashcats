@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Main from "../components/Main";
 import Sidebar from "../components/Sidebar";
 import Update from "../components/Update";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 
 function Learn() {
     return (

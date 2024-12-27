@@ -7,11 +7,11 @@ import Add from './pages/Add';
 
 import SideMainContainer from './components/SideMainContainer';
 
-import React from 'react';
+
 
 import './App.scss';
 import '../src/styles/global.scss';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router';
 
 
 function App() {
