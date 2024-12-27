@@ -13,4 +13,8 @@ export default defineConfig({
       },
     },
   },
+  esbuild: {
+    loader: 'jsx', // Treat .js files as .jsx
+    include: /src\/.*\.js$/, // Apply only to .js files in the src directory
+  },
 });

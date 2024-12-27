@@ -1,37 +1,30 @@
 
-import Footer from './components/Footer';
-import Learn from './pages/Learn';
-import Progress from './pages/Progress';
-import About from './pages/About';
-import Add from './pages/Add';
-
-import SideMainContainer from './components/SideMainContainer';
+import Sidebar from './Sidebar';
+import Main from './Main';
+import Nav from './Nav';
 
 import React from 'react';
 
-import './App.scss';
-import '../src/styles/global.scss';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import '../App.js';
+import '../styles/global.scss';
 
 
-function App() {
+
+function SideMainContainer() {
   return (
-    <BrowserRouter>
-      <div className='app'>
-          <SideMainContainer />
-          
-          
-          <Footer />
-      </div>
-    </BrowserRouter>
     
-        
       
-    
+          <div className="sidemaincontainer">
+
+            <Sidebar />
+            <Nav />
+            <Main />
+          </div>
+          
   );
 }
 
-export default App;
+export default SideMainContainer;
 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------
