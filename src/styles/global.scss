@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Lexend:wght@100..900&family=Mountains+of+Christmas&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap'); // font import
-@use 'variables.scss';
+@use './var';
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Lexend:wght@100..900&family=Mountains+of+Christmas:wght@400;700&display=swap');
+
 
 // FONTS: Lexend, Chicle, Quicksand, Nunito
 
@@ -10,14 +11,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: $black;
+  color: var.$black;
   
 }
 
 html {
   font-size: 16px;
   
-  color: $black;
+  color: var.$black;
 }
 
 body {
