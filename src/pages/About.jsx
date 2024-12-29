@@ -9,8 +9,9 @@ function About() {
     return (
         <div className="about">
             <h1>About Me</h1>
-            <p>What can I say...</p>
-            <p>I'm just a chill girl</p>
+            <p>I refuse</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi obcaecati, eveniet explicabo esse labore cumque earum hey there aperiam stranger asperiores how's vel it debitis going totam? Hic I eaque am praesentium liounieglny eveniet and cumque hlourtnsy. Reprehenderit veritatis accusantium consequatur deserunt?</p>
+            <p></p>
             <img src="/images/justachillgirl.png"/>
         </div>
         
